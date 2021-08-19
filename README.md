@@ -34,7 +34,7 @@ The main objective of this project is to help users who are new to stock market 
 * **Highly Recommend use of google colab to avoid any dependency related issues because it already provides all the dependecies mentined above**
 
 ### Dataset
-* I am using Nifty 50 Stock Market Data. The data is from year 2000 to 2021 which is actually pretty big so make sure you trim it down to last 5 years data using MS Excel, otherwise simply use the one dataset file which is available with project files or you can even mail me on the email id provided below to get all companies dataset file. 
+* I am using one of the dataset from Nifty 50 Stock Market Data. The data is from year 2000 to 2021 which is actually pretty big so make sure you trim it down to last 5 years data using MS Excel, otherwise simply use the one dataset file which is available with project files or you can even mail me on the email id provided below to get any help needed with pre-processing or stuff like that. 
 * Link to download the dataset: https://www.kaggle.com/rohanrao/nifty50-stock-market-data
 
 ### Manifest
@@ -57,9 +57,9 @@ LSTM.ipynb / LSTM.py :
 
 Download dataset from given link or download the zip file of entire project.</br>
 
-* **Highly Recommend  to download zip file of entire project and extract dataset from their because of you download the dataset from kaggle website, pre-procesing of data has to be done manually using excel**
+* **Highly Recommend  to download zip file of entire project and extract dataset from their because if you download the dataset from kaggle website, pre-procesing of data has to be done manually using excel**
 
-*If using local machine you can either download software mentioned (Anaconda Navigator) above and then download any missing dependencies or can use other IDE of your choice and then download all mentioned dependencies.*</br>
+*If using local machine you can either download software mentioned (Anaconda Navigator) above and then download any missing dependencies or if you are using other IDE of your choice and then download all mentioned dependencies.*</br>
 *If the running environment is google colab just make sure to upload the extracted folder which you have received after extracting the zip file.*
 
 Method 1 (For colab):
@@ -72,8 +72,13 @@ Method 2 (For local machine):
 * Secondly if you are using any IDE of your choice then make sure you change all the paths given in code according to your local machine
 
 ### Results
-Accuracy and loss curves, confusion matrix, classification report are availbale in [Result images](Images/) folder.</br>
-For more information about results [Result images info](Images/image_info.md).
+![single_day_price_prediction_using_ml_models](https://user-images.githubusercontent.com/42907233/129986932-5d8e393c-3499-4915-8efa-e2e4e529680c.PNG)
+
+The above table is made by running the All_Models_Without_LSTM.ipynb file and the results have been kept in a table for better understanding of user.
+
+![long_term_price_prediction_using_LSTM_along_with_trading_view](https://user-images.githubusercontent.com/42907233/129986928-241cbf72-8372-490d-9e2c-e6f135a450a5.PNG)
+
+The above graph is from trading view website where I have tried checking whether the output delivered by LSTM was accurate or not and it can be clearly seen that the curve matches the output from LSTM.ipynb file. Just to make it easier for user to understand I have drawn same curve on trading view to show our predicted output to actual output.
 
 ## Limitations
 Stock Market comprises of many other features such as Sentiment Analysis of Market, specific news release of a Stock and much more. Including all these in this project was not feasible because of two reasons first being the computation power and second as it was not economically feasible.
@@ -92,4 +97,4 @@ This project is not licensed.
 
 ## Project status
 The project is complete</br>
-Still, a lot more can be done with high computation power and as we are seeing advancement in the field of Natural Language Processing soon we will be able to tackle the issue of sentiment in market.
+But I still believe, a lot more can be done with high computation power and as we are seeing advancement in the field of Natural Language Processing soon we will be able to tackle the issue of sentiment in market.
