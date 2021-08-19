@@ -55,7 +55,7 @@ LSTM.ipynb / LSTM.py :
 
 ### Executing program
 
-Download dataset from given link or download the zip file of entire project.</br>
+Download dataset from above given link or download the zip file of entire project.</br>
 
 * **Highly Recommend  to download zip file of entire project and extract dataset from their because if you download the dataset from kaggle website, pre-procesing of data has to be done manually using excel**
 
